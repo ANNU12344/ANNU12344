@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Java Script</title>
+		<script src="Example.js"></script>
+	</head>
+	<body>
+		<h1> Java Script</h1>
+		<button type="button" onclick="MyStyle()">Click</button>
+		<p id="Display">
+			If you want to display static content, for example, a set of images, then HTML can do the job for you. 
+			However, static pages are slowly becoming a thing of the past. 
+			Most of the content today is interactive and includes flashy slideshows, forms, and menus. 
+			They enhance user experience and add dynamicity to the website. 
+			This is achieved by scripting languages and JavaScript is one of the most famous in this regard. 
+			It lets developers make websites that interact with the user and vice versa. 
+			Even though there are many other languages available, none of them is as popular as JavaScript. 
+			In order to utilize it to the greatest potential, it’s used in tandem with HTML.
+		</p>
+		<script>
+			function Display() {
+				var a=23;
+				document.write("Value of a="+a); 
+			}
+			Display();
+			document.write("Value of a="+a);
+		</script>
+		<h1>
+			Javascript have only two scope
+		</h1>
+		<ul>
+			<li>Globle scope</li>
+			<li>Function scope</li>
+		</ul>
+		<p>
+			Here you can see that if we not call Display function then Value of a not print .If we call then print.
+		</p>
+		<h1>
+			 Undefined and not defined variables in JS
+		</h1>
+		<script>
+		function add(a,b) {
+		  return;
+		}
+		console.log(add(2,7));
+			var b=7;
+            console.log(b,m); //undefined
+		</script>
+	</body>
+</html>
